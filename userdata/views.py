@@ -18,7 +18,7 @@ from rest_framework.generics import RetrieveUpdateAPIView
 import random
 import datetime
 from django.utils import timezone
-from .smtp import send_email
+# from .smtp import send_email
 from .otp import send_otp, verify_otp, clean_phone_number
 import razorpay
 from django.core.files.base import ContentFile
